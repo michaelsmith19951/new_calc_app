@@ -18,7 +18,8 @@ end
 
 # Function that performs division
 def division(first_number, second_number)
-	
+# Conditional that removes divide by zero error
+
 	answer = first_number / second_number
 	answer
 end
