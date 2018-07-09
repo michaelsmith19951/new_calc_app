@@ -25,6 +25,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_that_40_divided_by_four_equals_10
-		assert_equal(10, division(25, 5))
+		assert_equal(10, division(40, 4))
 	end
 end
