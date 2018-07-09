@@ -35,4 +35,8 @@ class TestNewCalc < Minitest::Test
 	def test_if_divided_by_zero_equals_nil
 		assert_equal(nil, division(40, 0))
 	end
+
+	def test_if_string_entered_equals_nil1_addition
+		assert_equal(nil, addition("", 10))
+	end
 end

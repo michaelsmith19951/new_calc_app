@@ -1,6 +1,14 @@
 # Function that performs addition
 def addition(first_number, second_number)
+# Conditional that prevents entering of strings and arrays
+if (first_number == "") || (second_number == "")
+	nil
+elsif (first_number == []) || (second_number == [])
+	nil
+else
 	answer = first_number + second_number
+end
+
 	answer
 end
 
