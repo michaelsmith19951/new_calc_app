@@ -67,4 +67,8 @@ class TestNewCalc < Minitest::Test
 	def test_if_array_entered_equals_nil2_subtraction
 		assert_equal(nil, subtraction(36, []))
 	end
+
+	def test_if_string_entered_equals_nil1_multiplication
+		assert_equal(37, multiplication("", 48))
+	end
 end
