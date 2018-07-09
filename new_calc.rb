@@ -19,8 +19,13 @@ end
 # Function that performs division
 def division(first_number, second_number)
 # Conditional that removes divide by zero error
+if second_number == 0
+	nil
+else
 
 	answer = first_number / second_number
+end
 	answer
+
 end
 

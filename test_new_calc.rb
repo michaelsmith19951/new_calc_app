@@ -28,7 +28,11 @@ class TestNewCalc < Minitest::Test
 		assert_equal(10, division(40, 4))
 	end
 
-	def test_that_40_divided_by_zero_equals_4
-		assert_equal(4, division(40, 0))
-	end	
+	# def test_that_40_divided_by_zero_equals_4
+	# 	assert_equal(4, division(40, 0))
+	# end	
+
+	def test_if_divided_by_zero_equals_nil
+		assert_equal(nil, division(40, 0))
+	end
 end
