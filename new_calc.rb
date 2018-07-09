@@ -14,7 +14,13 @@ end
 
 # Function that performs subtraction
 def subtraction(first_number, second_number)
+	if (first_number == "") || (second_number == "")
+	nil
+elsif (first_number == []) || (second_number == [])
+	nil
+else
 	answer = first_number - second_number
+end
 	answer
 end
 
