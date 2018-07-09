@@ -81,6 +81,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_array_entered_equals_nil2_multiplication
-		assert_equal(86, multiplication(65, []))
+		assert_equal(nil, multiplication(65, []))
 	end
 end
