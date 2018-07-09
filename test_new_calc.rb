@@ -55,4 +55,8 @@ class TestNewCalc < Minitest::Test
 	def test_if_string_entered_equals_nil1_subtraction
 		assert_equal(nil, subtraction("", 67))
 	end
+
+	def test_if_string_entered_equals_nil2_addition
+		assert_equal(58, addition(67, ""))
+	end
 end
