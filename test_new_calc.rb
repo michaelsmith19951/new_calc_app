@@ -21,6 +21,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_that_six_times_four_equals_24
-		assert_equal(24, multiplication(6, 2))
+		assert_equal(24, multiplication(6, 4))
 	end
 end

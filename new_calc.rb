@@ -16,3 +16,10 @@ def multiplication(first_number, second_number)
 	answer
 end
 
+# Function that performs division
+def division(first_number, second_number)
+	
+	answer = first_number / second_number
+	answer
+end
+
