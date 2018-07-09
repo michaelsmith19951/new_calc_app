@@ -12,6 +12,6 @@ class TestNewCalc < Minitest::Test
 		assert_equal(1, 1)
 	end
 	def test_that_one_plus_one_equals_two
-		assert_equal(2, addition(1, 1))
+		assert_equal(2, addition(1, 5))
 	end
 end
