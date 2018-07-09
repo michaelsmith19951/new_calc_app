@@ -4,8 +4,8 @@ require "minitest/autorun"
 # Use the file that will be tested
 require_relative "new_calc.rb"
 
-# Test the test_tdd_bash.rb for passes and failures
-class TestTddEncryptHash < Minitest::Test
+# Test the test_new_calc.rb for passes and failures
+class TestNewCalc < Minitest::Test
 
 # Functions for each test
 	def test_1_equals_1
