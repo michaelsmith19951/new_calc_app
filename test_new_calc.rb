@@ -1,4 +1,4 @@
-# Use the Ruby gem 
+# Use the Ruby Gem 
 require "minitest/autorun"
 
 # Use the file that will be tested
