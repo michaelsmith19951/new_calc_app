@@ -65,6 +65,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_array_entered_equals_nil2_subtraction
-		assert_equal(9, subtraction(36, []))
+		assert_equal(nil, subtraction(36, []))
 	end
 end
