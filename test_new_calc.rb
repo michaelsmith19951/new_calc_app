@@ -48,4 +48,8 @@ class TestNewCalc < Minitest::Test
 		assert_equal(nil, addition([], 6))
 	end
 
+	def test_if_array_entered_equals_nil2_addition
+		assert_equal(2, addition(15, []))
+	end
+
 end
