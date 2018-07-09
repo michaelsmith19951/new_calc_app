@@ -15,6 +15,6 @@ class TestNewCalc < Minitest::Test
 		assert_equal(2, addition(1, 1))
 	end
 	def test_that_five_minus_one_equals_four
-		assert_equal(4, subtraction(5, 3))
+		assert_equal(4, subtraction(5, 1))
 	end
 end
