@@ -41,6 +41,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_string_entered_equals_nil2_addition
-		assert_equal(5, addition(5, ""))
+		assert_equal(nil, addition(5, ""))
 	end
 end
