@@ -73,6 +73,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_string_entered_equals_nil2_multiplication
-		assert_equal(32, multiplication(34, ""))
+		assert_equal(nil, multiplication(34, ""))
 	end
 end
