@@ -83,4 +83,8 @@ class TestNewCalc < Minitest::Test
 	def test_if_array_entered_equals_nil2_multiplication
 		assert_equal(nil, multiplication(65, []))
 	end
+
+	def test_if_string_entered_equals_nil1_division
+		assert_equal(50, division("", 10))
+	end
 end

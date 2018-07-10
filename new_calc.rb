@@ -42,8 +42,13 @@ def division(first_number, second_number)
 if second_number == 0
 	nil
 else
-
+if (first_number == "") || (second_number == "")
+	nil
+elsif (first_number == []) || (second_number == [])
+	nil
+else
 	answer = first_number / second_number
+end
 end
 	answer
 
