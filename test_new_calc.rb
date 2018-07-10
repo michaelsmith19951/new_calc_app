@@ -93,6 +93,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_array_entered_equals_nil1_division
-		assert_equal(57, division([], 58))
+		assert_equal(nil, division([], 58))
 	end
 end
