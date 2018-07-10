@@ -85,6 +85,6 @@ class TestNewCalc < Minitest::Test
 	end
 
 	def test_if_string_entered_equals_nil1_division
-		assert_equal(50, division("", 10))
+		assert_equal(nil, division("", 10))
 	end
 end
