@@ -87,4 +87,8 @@ class TestNewCalc < Minitest::Test
 	def test_if_string_entered_equals_nil1_division
 		assert_equal(nil, division("", 10))
 	end
+
+	def test_if_string_entered_equals_nil2_division
+		assert_equal(34, division(78, ""))
+	end
 end
