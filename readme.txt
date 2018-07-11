@@ -1,0 +1,1 @@
+This is a revised calculator app that gives practice with creating tests for failures and passes. The "divide by 0" error has been fixed. The input of a string or an array results in a "nil" output.
